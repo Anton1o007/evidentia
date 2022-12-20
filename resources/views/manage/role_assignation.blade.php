@@ -59,7 +59,7 @@
 
                             <h3>Usuarios</h3>
                             
-                            <label style="color:red;">Aviso: Los usuarios seleccionados perderán sus roles antes de conseguir sus roles nuevos.</label>
+                            <label style="color:blue;">Aviso: Los usuarios seleccionados perderán sus roles antes de conseguir sus roles nuevos.</label>
 
                             <div class="form-group">
                                 <select class="select2bs4" id="users" name="users[]" multiple="multiple @error('users') is-invalid @enderror" data-placeholder="Elige los usuarios a los que aplicar los roles"
